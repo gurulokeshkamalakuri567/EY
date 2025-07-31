@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Invitation - EY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.main-wrapper {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Header section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container img {
+    width: 100px;
+    height: auto;
+}
+
+.head {
+    flex: 1;
+    text-align: right;
+    font-size: 24px;
+    color: white;
+}
+
+/* Divider line */
+.line {
+    background-color: yellow;
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+}
+
+/* Content section */
+.name {
+    margin-top: 30px;
+    font-size: 22px;
+    color: white;
+}
+
+.para {
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .para, .name {
+        text-align: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <img src="./Assets/Untitled design (2).png" alt="EY Logo">
+            <h2 class="head">Recruitment GDS</h2>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="content">
+            <h3 class="name">Dear Maharaja,</h3>
+            <p class="para">
+                Thank you for your interest in the opportunity at EY. We are pleased to invite you for an interview 
+                for the <strong>Associate Software Engineer</strong> position.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
